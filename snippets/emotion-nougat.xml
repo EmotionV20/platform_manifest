@@ -19,6 +19,7 @@
   <project path="hardware/qcom/keymaster" name="Emotroid-Rom/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="emotroid" />
   <project path="hardware/broadcom/libbt" name="Emotroid-Rom/android_hardware_broadcom_libbt" groups="pdk" remote="emotroid" />
   <project path="system/sepolicy" name="Emotroid-Rom/android_system_sepolicy" groups="pdk" remote="emotroid" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="teamsubstratum" revision="n" />
   <!-- END Emotion -->
 
   <!-- CyanogenMod additions -->
