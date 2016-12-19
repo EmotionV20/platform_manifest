@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Emotion custom -->
-  <project path="vendor/emotion" name="Emotroid-Rom/vendor_emotion" remote="emotroid" >
+  <project path="vendor/emotion" name="EmotionV20/vendor_emotion" remote="emotroid" >
     <copyfile src="tools/build-emotion.sh" dest="build-emotion.sh"/>
   </project>
   <project path="changelogs" remote="emotroid" name="Emotroid-Rom/Changelogs" />

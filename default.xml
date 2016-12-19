@@ -31,7 +31,7 @@
            sync-j="4" />
 
   <!-- Emotion Projects -->
-  <project path="platform_manifest" name="Emotroid-Rom/platform_manifest" remote="emotroid" />
+  <project path="platform_manifest" name="EmotionV20/platform_manifest" remote="emotroid" />
   <project path="build" name="Emotroid-Rom/build" groups="pdk" remote="emotroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
