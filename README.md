@@ -13,9 +13,13 @@ Initializing Repository
 
 Initiate core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/Emotroid-Rom/platform_manifest.git -b nougat
+    $ repo init -u https://github.com/EmotionV20/platform_manifest.git -b nougat
+    
+After collect roomservices:
 
-    $ git clone local_manifest into ./repo
+    $ cd .repo
+    $ git clone https://github.com/EmotionV20/local_manifests.git
+    $ cd back to working directory
 
 Sync the repository:
 
@@ -30,9 +34,9 @@ After the sync is finished, please read the [instructions from the Android site]
 
     $ ./build-emotion.sh <device_codename>
 
-Example for Note 4:
+Example for v20:
 
-    $ ./build-emotion.sh trltexx
+    $ ./build-emotion.sh ls997
 
 For a list of supported options, run the script on it's own:
 
