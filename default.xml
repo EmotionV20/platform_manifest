@@ -29,9 +29,13 @@
            remote="emotroid"
            sync-c="true"
            sync-j="4" />
+  
+  <remote  name="emotroidv20"
+           fetch="https://github.com/"
+           revision="refs/heads/nougat" />
 
   <!-- Emotion Projects -->
-  <project path="platform_manifest" name="EmotionV20/platform_manifest" remote="emotroid" />
+  <project path="platform_manifest" name="EmotionV20/platform_manifest" remote="emotroidv20" />
   <project path="build" name="Emotroid-Rom/build" groups="pdk" remote="emotroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
