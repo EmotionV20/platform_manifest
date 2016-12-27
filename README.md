@@ -1,7 +1,7 @@
-[Emotion Rom](http://emotroid.com/)
+[EmotionOS](https://goo.gl/1ByphU)
 ====================================
 
-![Emotroid Team](http://i.imgur.com/4XAXvMq.png)
+![EmotionOS](http://i.imgur.com/4XAXvMq.png)
 
 Download the Source
 ===================
