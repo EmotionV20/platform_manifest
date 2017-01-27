@@ -12,6 +12,10 @@
   <remote  name="emotion"
            fetch="https://github.com/"
            revision="refs/heads/nougat" />
+		   
+  <remote name="omni"
+           fetch="https://github.com/"
+           review="gerrit.omnirom.org" />	   
 
   <remote  name="cm"
            fetch=".."
